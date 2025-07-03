@@ -1,9 +1,11 @@
 @import url(reset.css);
+@import url(global.css);
+@import url(./componets/navigator.css);
 
-.s-wrapper{
-    display: flex;
-    height: 100vh;
-    flex-flow: row nowrap;
+.s-wrapper {
+  display: flex;
+  height: 100vh;
+  flex-flow: row nowrap;
 }
 
 .s-wrapper .s-left-column {
@@ -17,9 +19,10 @@
   left: 0;
   top: 0;
   z-index: 1;
+  background-color: black;
 }
 
-.s-wrapper .s-main-content{
+.s-wrapper .s-main-content {
   height: 100%;
   width: 100%;
   padding-left: 130px;
